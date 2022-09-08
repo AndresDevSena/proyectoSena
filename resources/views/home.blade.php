@@ -72,10 +72,10 @@ Participacion ciudadana
               </div>
             </div>
             <div class="space-y-1 px-2 pt-2 pb-3">
-              <a href="{{route('registrarse')}}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Sondeos</a>
-              <a href="{{ route('login') }}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Registrarse</a>         
+              <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Sondeos</a>
+              <a href="{{ route('registrarse') }}" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900">Registrarse</a>         
             </div>
-            <a href="#" class="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100">Iniciar Sesion</a>
+            <a href="{{ route('login') }}" class="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100">Iniciar Sesion</a>
           </div>
         </div>
       </div>
